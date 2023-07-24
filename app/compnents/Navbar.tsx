@@ -5,8 +5,8 @@ import { RxCross2 } from "react-icons/rx";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
-    <>
-      <div className="mx-auto w-full h-24 fixed flex justify-between items-center">
+    <div>
+      <div className="mx-auto w-full h-24 bg-black fixed top-0 z-50 flex justify-between items-center">
         <h2 className="text-3xl uppercase font-bold text-[#00df9a] px-4">
           React.
         </h2>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
       </div>
       {show && (
-        <div className="fixed left-0 top-0 bg-[#000] z-10 border-r border-gray-700 h-screen w-[50%] flex flex-col gap-4">
+        <div className="fixed left-0 top-0 bg-[#000] border-r border-gray-700 h-screen w-[50%] flex flex-col gap-4">
           <h2 className="text-3xl uppercase font-bold text-[#00df9a] px-4 py-4">
             React.
           </h2>
@@ -80,7 +80,7 @@ const Navbar = () => {
           </ul>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

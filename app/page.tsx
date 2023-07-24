@@ -1,10 +1,25 @@
-import Navbar from './compnents/Navbar'
+import DataAnalaytics from "./compnents/DataAnalaytics";
+import Footer from "./compnents/Footer";
+import Hero from "./compnents/Hero";
+import Navbar from "./compnents/Navbar";
+import NewsLetter from "./compnents/NewsLetter";
+import Plans from "./compnents/Plans";
 
 export default function Home() {
   return (
-      <div className='h-screen bg-black w-full'>
-          <Navbar />
-          
-    </div>
-  )
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Hero />
+        <DataAnalaytics />
+        <NewsLetter />
+        <Plans />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
+  );
 }
