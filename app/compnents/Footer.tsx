@@ -9,12 +9,12 @@ import {
 const Footer = () => {
   return (
     <div className="bg-black h-full w-full py-12 text-white container mx-auto">
-      <div className="flex flex-col md:flex-row md:gap-12 gap-8 justify-center items-center">
+      <div className="flex flex-col md:flex-row md:gap-12 gap-8 justify-center items-center sm:px-4 max-sm:4">
         <div className="flex flex-col flex-wrap w-full md:w-[30%] gap-6">
           <h2 className="text-3xl uppercase font-bold text-[#00df9a] px-4">
             React.
           </h2>
-          <p className="text-justify">
+          <p className="text-justify leading-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
             molestias ex cupiditate labore maxime, totam minus quo, neque iste
             et fuga veniam magni repudiandae optio, hic aliquam quasi eveniet
